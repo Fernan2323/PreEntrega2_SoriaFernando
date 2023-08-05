@@ -1,0 +1,63 @@
+*body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+main{
+  height: 75%;
+  background-image: url(../assets/img/1314280.jpeg)
+}
+
+
+.mainDiv{
+  width: 270px;
+  height: 270px;
+  margin: 25px;
+  background-color: rgba(240, 248, 255, 0.459)
+}
+
+header{
+height: 15%;
+background-color: rgba(0, 4, 40, 1);
+
+
+}
+
+
+.bgcolorNav{
+  background-color: rgba(0, 4, 40, 1);
+
+}
+footer{
+  height: 10%;
+  background-color: rgba(0, 4, 40, 1);
+}
+a:hover{
+  background-color: rgb(1, 145, 49);
+  border-radius: 20%;
+  padding: 15px;
+
+  
+
+}
+a{
+  text-decoration: none;
+}
+@media screen and (max-width: 375px){
+  .mediasUno{
+    font-size: 1rem !important;
+  
+
+  
+  }
+  .mediasForm{
+    font-size: 0.5rem;
+  }
+
+} 
+  
+
+  
