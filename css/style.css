@@ -6,31 +6,40 @@
 body{
   height: 100vh;
 }
+header{
+  height: 15%;
+  background-color: rgba(0, 4, 40, 1);
+  
+  
+  }
+  
+  
+  .bgcolorNav{
+    background-color: rgba(0, 4, 40, 1);
+  
+  }
+
 main{
   height: 75%;
-  background-image: url(../assets/img/1314280.jpeg)
+  background-image: url(../assets/img/jhonwick.jpeg)
 }
 
 
 .mainDiv{
-  width: 270px;
-  height: 270px;
+  width: 220px;
+  height: 220px;
   margin: 25px;
   background-color: rgba(240, 248, 255, 0.459)
 }
-
-header{
-height: 15%;
-background-color: rgba(0, 4, 40, 1);
-
-
+.carrusel{
+  width: 260px;
+ 
+}
+.imgCarrusel{
+  width: 260px;
+  height: 723px;
 }
 
-
-.bgcolorNav{
-  background-color: rgba(0, 4, 40, 1);
-
-}
 footer{
   height: 10%;
   background-color: rgba(0, 4, 40, 1);
