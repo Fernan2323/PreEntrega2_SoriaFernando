@@ -1,72 +1,62 @@
-*body{
+*body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100vh;
 }
-header{
+header {
   height: 15%;
   background-color: rgba(0, 4, 40, 1);
-  
-  
-  }
-  
-  
-  .bgcolorNav{
-    background-color: rgba(0, 4, 40, 1);
-  
-  }
+}
+.logoImg {
+  width: 35px;
+  height: 35px;
+  position: absolute; left: 200px; top: 25px;
+}
 
-main{
+.bgcolorNav {
+  background-color: rgba(0, 4, 40, 1);
+}
+
+main {
   height: 75%;
 }
 
-
-
-
-.mainDiv{
+.mainDiv {
   width: 220px;
   height: 220px;
   margin: 25px;
-  background-color: rgba(240, 248, 255, 0.459)
+  background-color: rgba(240, 248, 255, 0.459);
 }
-.carrusel{
+.carrusel {
   width: 300px;
-  position: absolute; right: -10px;
-
+  position: absolute;
+  right: -10px;
 }
-.imgCarrusel{
+.imgCarrusel {
   width: 260px;
   height: 723px;
 }
 
-footer{
+footer {
   height: 10%;
   background-color: rgba(0, 4, 40, 1);
 }
-a:hover{
+a:hover {
   background-color: rgb(1, 145, 49);
   border-radius: 20%;
   padding: 5px;
-
 }
-a{
+a {
   text-decoration: none;
 }
-@media screen and (max-width: 375px){
-  .mediasUno{
+@media screen and (max-width: 375px) {
+  .mediasUno {
     font-size: 1rem !important;
-  
-
-  
   }
-  .mediasForm{
+  .mediasForm {
     font-size: 0.5rem;
   }
-
-} 
-  
-
-  
+}
