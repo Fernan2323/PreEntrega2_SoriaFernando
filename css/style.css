@@ -21,8 +21,9 @@ header{
 
 main{
   height: 75%;
-  background-image: url(../assets/img/jhonwick.jpeg)
 }
+
+
 
 
 .mainDiv{
@@ -32,8 +33,9 @@ main{
   background-color: rgba(240, 248, 255, 0.459)
 }
 .carrusel{
-  width: 260px;
- 
+  width: 300px;
+  position: absolute; right: -10px;
+
 }
 .imgCarrusel{
   width: 260px;
@@ -47,9 +49,7 @@ footer{
 a:hover{
   background-color: rgb(1, 145, 49);
   border-radius: 20%;
-  padding: 15px;
-
-  
+  padding: 5px;
 
 }
 a{
