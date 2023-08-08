@@ -13,7 +13,6 @@ header {
 .logoImg {
   width: 35px;
   height: 35px;
-  position: absolute; left: 200px; top: 25px;
 }
 
 .bgcolorNav {
@@ -51,12 +50,4 @@ a:hover {
 }
 a {
   text-decoration: none;
-}
-@media screen and (max-width: 375px) {
-  .mediasUno {
-    font-size: 1rem !important;
-  }
-  .mediasForm {
-    font-size: 0.5rem;
-  }
 }
